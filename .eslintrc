@@ -1,0 +1,14 @@
+{
+    "root": true,
+    "extends": [
+      "@antfu"
+    ],
+    "rules": {
+      "n/prefer-global/process": ["error", "always"],
+      "@typescript-eslint/quotes": ["error", "double"],
+      "@typescript-eslint/semi": ["error", "always"],
+      "@typescript-eslint/brace-style": ["error", "1tbs", { "allowSingleLine": false }],
+      "@typescript-eslint/member-delimiter-style": ["error", { "multiline": { "delimiter": "semi" } }],
+      "vue/html-self-closing": ["error", { "html": { "void": "never", "normal": "never", "component": "always" } }]
+    }
+  }
