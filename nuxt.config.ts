@@ -8,6 +8,7 @@ export default defineNuxtConfig({
       },
     },
   },
+  ssr: false,
   vue: {
     defineModel: true,
     propsDestructure: true,
