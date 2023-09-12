@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import "./userWorker";
+
 const appConfig = useAppConfig();
 
 const head = useLocaleHead({
