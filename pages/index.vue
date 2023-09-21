@@ -3,5 +3,8 @@ const value = ref("");
 </script>
 
 <template>
-  <Editor v-model="value" />
+  <div>
+    <input v-model="value">
+    <p>{{ value }}</p>
+  </div>
 </template>

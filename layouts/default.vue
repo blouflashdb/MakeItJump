@@ -1,5 +1,5 @@
 <template>
-  <header>Footer</header>
+  <header>Header</header>
   <main>
     <slot></slot>
   </main>

@@ -4,10 +4,8 @@
 
 <style lang="css">
 body {
-  @apply h-screen w-screen;
-  --c: 25;
-  background:
-  repeating-linear-gradient(#0002 0 0.5px, #0000 0 calc(100vh / var(--c) - 0.5px), #0002 0 calc(100vh / var(--c))),
-  repeating-linear-gradient(to right, #0002 0 0.5px, #0000 0 calc(100vw / var(--c) - 0.5px), #0002 0 calc(100vw / var(--c)));
+  background-image: linear-gradient(to right, #ccc 1px, transparent 1px),
+    linear-gradient(to top, #ccc 1px, transparent 1px);
+  background-size: 50px 50px;
 }
 </style>
